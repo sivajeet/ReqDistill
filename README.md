@@ -1,6 +1,6 @@
 # ReqDistill
 
-ReqDistill — baseline evaluation: small LLM vs large LLM
+StoryDistill — baseline evaluation: small LLM vs large LLM
 Goal: test, rather than assume, whether a small instruction-tuned model produces lower-quality engineering subtasks than a larger teacher model on the FleetDM dataset. No training or fine-tuning.
 
 Pipeline: FleetDM user stories → identical task-decomposition prompt → Qwen student vs Gemini teacher → compare both to withheld human subtasks → per-story results, aggregate statistics, paired bootstrap uncertainty, CSV outputs. An optional blinded model-judge stage is provided for qualitative analysis, but it is not the primary evidence.
