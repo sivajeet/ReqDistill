@@ -1,4 +1,4 @@
-# ReqDistill
+# StoryDistill
 
 StoryDistill — baseline evaluation: small LLM vs large LLM
 Goal: test, rather than assume, whether a small instruction-tuned model produces lower-quality engineering subtasks than a larger teacher model on the FleetDM dataset. No training or fine-tuning.
